@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B05D3621E0B11410023D623 /* MonthYearPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B05D3611E0B11410023D623 /* MonthYearPickerView.swift */; };
+		5B20D0DE1DF67CD60058882D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B20D0DC1DF67CD60058882D /* Main.storyboard */; };
+		5B4503DC1DEEE00D00BD4B3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503DB1DEEE00D00BD4B3E /* AppDelegate.swift */; };
+		5B4503DE1DEEE00D00BD4B3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503DD1DEEE00D00BD4B3E /* ViewController.swift */; };
+		5B4503E31DEEE00D00BD4B3E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4503E21DEEE00D00BD4B3E /* Images.xcassets */; };
+		5B4503E61DEEE00D00BD4B3E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4503E41DEEE00D00BD4B3E /* LaunchScreen.xib */; };
+		5B4503F21DEEE00D00BD4B3E /* _47DoctorServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503F11DEEE00D00BD4B3E /* _47DoctorServiceTests.swift */; };
+		5B4503FC1DEEEA2D00BD4B3E /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503FB1DEEEA2D00BD4B3E /* LoginController.swift */; };
+		5B4503FE1DEEEA6700BD4B3E /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503FD1DEEEA6700BD4B3E /* RegisterController.swift */; };
+		5B4504001DEEF0AD00BD4B3E /* BookingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4503FF1DEEF0AD00BD4B3E /* BookingController.swift */; };
+		5B4504021DF5F5FF00BD4B3E /* BookingConfirmationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4504011DF5F5FF00BD4B3E /* BookingConfirmationController.swift */; };
+		5B6DDA001E18BFC6003D4AFB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B6DD9FF1E18BFC6003D4AFB /* Utility.swift */; };
+		5B9E059F1E065287004FDCBD /* CallBackController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E059E1E065287004FDCBD /* CallBackController.swift */; };
+		5B9E05A11E06AF39004FDCBD /* TeleConsultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E05A01E06AF39004FDCBD /* TeleConsultController.swift */; };
+		5B9E05A31E07224B004FDCBD /* logoutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E05A21E07224B004FDCBD /* logoutController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4503EC1DEEE00D00BD4B3E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4503CE1DEEE00D00BD4B3E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4503D51DEEE00D00BD4B3E;
+			remoteInfo = 247DoctorService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B05D3611E0B11410023D623 /* MonthYearPickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonthYearPickerView.swift; sourceTree = "<group>"; };
+		5B20D0DD1DF67CD60058882D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4503D61DEEE00D00BD4B3E /* 247DoctorService.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 247DoctorService.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4503DA1DEEE00D00BD4B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4503DB1DEEE00D00BD4B3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B4503DD1DEEE00D00BD4B3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B4503E21DEEE00D00BD4B3E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B4503E51DEEE00D00BD4B3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B4503EB1DEEE00D00BD4B3E /* 247DoctorServiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 247DoctorServiceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4503F01DEEE00D00BD4B3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4503F11DEEE00D00BD4B3E /* _47DoctorServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _47DoctorServiceTests.swift; sourceTree = "<group>"; };
+		5B4503FB1DEEEA2D00BD4B3E /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		5B4503FD1DEEEA6700BD4B3E /* RegisterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		5B4503FF1DEEF0AD00BD4B3E /* BookingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingController.swift; sourceTree = "<group>"; };
+		5B4504011DF5F5FF00BD4B3E /* BookingConfirmationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingConfirmationController.swift; sourceTree = "<group>"; };
+		5B6DD9FF1E18BFC6003D4AFB /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		5B9E059E1E065287004FDCBD /* CallBackController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallBackController.swift; sourceTree = "<group>"; };
+		5B9E05A01E06AF39004FDCBD /* TeleConsultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeleConsultController.swift; sourceTree = "<group>"; };
+		5B9E05A21E07224B004FDCBD /* logoutController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logoutController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4503D31DEEE00D00BD4B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4503E81DEEE00D00BD4B3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4503CD1DEEE00D00BD4B3E = {
+			isa = PBXGroup;
+			children = (
+				5B4503D81DEEE00D00BD4B3E /* 247DoctorService */,
+				5B4503EE1DEEE00D00BD4B3E /* 247DoctorServiceTests */,
+				5B4503D71DEEE00D00BD4B3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4503D71DEEE00D00BD4B3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4503D61DEEE00D00BD4B3E /* 247DoctorService.app */,
+				5B4503EB1DEEE00D00BD4B3E /* 247DoctorServiceTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4503D81DEEE00D00BD4B3E /* 247DoctorService */ = {
+			isa = PBXGroup;
+			children = (
+				5B4503DB1DEEE00D00BD4B3E /* AppDelegate.swift */,
+				5B05D3611E0B11410023D623 /* MonthYearPickerView.swift */,
+				5B4503DD1DEEE00D00BD4B3E /* ViewController.swift */,
+				5B4503E21DEEE00D00BD4B3E /* Images.xcassets */,
+				5B4503E41DEEE00D00BD4B3E /* LaunchScreen.xib */,
+				5B4503D91DEEE00D00BD4B3E /* Supporting Files */,
+				5B4503FB1DEEEA2D00BD4B3E /* LoginController.swift */,
+				5B4503FD1DEEEA6700BD4B3E /* RegisterController.swift */,
+				5B4503FF1DEEF0AD00BD4B3E /* BookingController.swift */,
+				5B20D0DC1DF67CD60058882D /* Main.storyboard */,
+				5B6DD9FF1E18BFC6003D4AFB /* Utility.swift */,
+				5B9E05A21E07224B004FDCBD /* logoutController.swift */,
+				5B9E05A01E06AF39004FDCBD /* TeleConsultController.swift */,
+				5B9E059E1E065287004FDCBD /* CallBackController.swift */,
+				5B4504011DF5F5FF00BD4B3E /* BookingConfirmationController.swift */,
+			);
+			path = 247DoctorService;
+			sourceTree = "<group>";
+		};
+		5B4503D91DEEE00D00BD4B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4503DA1DEEE00D00BD4B3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B4503EE1DEEE00D00BD4B3E /* 247DoctorServiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4503F11DEEE00D00BD4B3E /* _47DoctorServiceTests.swift */,
+				5B4503EF1DEEE00D00BD4B3E /* Supporting Files */,
+			);
+			path = 247DoctorServiceTests;
+			sourceTree = "<group>";
+		};
+		5B4503EF1DEEE00D00BD4B3E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4503F01DEEE00D00BD4B3E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4503D51DEEE00D00BD4B3E /* 247DoctorService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4503F51DEEE00D00BD4B3E /* Build configuration list for PBXNativeTarget "247DoctorService" */;
+			buildPhases = (
+				5B4503D21DEEE00D00BD4B3E /* Sources */,
+				5B4503D31DEEE00D00BD4B3E /* Frameworks */,
+				5B4503D41DEEE00D00BD4B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 247DoctorService;
+			productName = 247DoctorService;
+			productReference = 5B4503D61DEEE00D00BD4B3E /* 247DoctorService.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4503EA1DEEE00D00BD4B3E /* 247DoctorServiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4503F81DEEE00D00BD4B3E /* Build configuration list for PBXNativeTarget "247DoctorServiceTests" */;
+			buildPhases = (
+				5B4503E71DEEE00D00BD4B3E /* Sources */,
+				5B4503E81DEEE00D00BD4B3E /* Frameworks */,
+				5B4503E91DEEE00D00BD4B3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4503ED1DEEE00D00BD4B3E /* PBXTargetDependency */,
+			);
+			name = 247DoctorServiceTests;
+			productName = 247DoctorServiceTests;
+			productReference = 5B4503EB1DEEE00D00BD4B3E /* 247DoctorServiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4503CE1DEEE00D00BD4B3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "247 Doctor Service";
+				TargetAttributes = {
+					5B4503D51DEEE00D00BD4B3E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = QJ397R6LK8;
+						LastSwiftMigration = 0820;
+					};
+					5B4503EA1DEEE00D00BD4B3E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 5B4503D51DEEE00D00BD4B3E;
+					};
+				};
+			};
+			buildConfigurationList = 5B4503D11DEEE00D00BD4B3E /* Build configuration list for PBXProject "247DoctorService" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4503CD1DEEE00D00BD4B3E;
+			productRefGroup = 5B4503D71DEEE00D00BD4B3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4503D51DEEE00D00BD4B3E /* 247DoctorService */,
+				5B4503EA1DEEE00D00BD4B3E /* 247DoctorServiceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4503D41DEEE00D00BD4B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B20D0DE1DF67CD60058882D /* Main.storyboard in Resources */,
+				5B4503E61DEEE00D00BD4B3E /* LaunchScreen.xib in Resources */,
+				5B4503E31DEEE00D00BD4B3E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4503E91DEEE00D00BD4B3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4503D21DEEE00D00BD4B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B9E05A11E06AF39004FDCBD /* TeleConsultController.swift in Sources */,
+				5B4504021DF5F5FF00BD4B3E /* BookingConfirmationController.swift in Sources */,
+				5B4504001DEEF0AD00BD4B3E /* BookingController.swift in Sources */,
+				5B6DDA001E18BFC6003D4AFB /* Utility.swift in Sources */,
+				5B4503FE1DEEEA6700BD4B3E /* RegisterController.swift in Sources */,
+				5B9E059F1E065287004FDCBD /* CallBackController.swift in Sources */,
+				5B4503DE1DEEE00D00BD4B3E /* ViewController.swift in Sources */,
+				5B05D3621E0B11410023D623 /* MonthYearPickerView.swift in Sources */,
+				5B4503FC1DEEEA2D00BD4B3E /* LoginController.swift in Sources */,
+				5B4503DC1DEEE00D00BD4B3E /* AppDelegate.swift in Sources */,
+				5B9E05A31E07224B004FDCBD /* logoutController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4503E71DEEE00D00BD4B3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4503F21DEEE00D00BD4B3E /* _47DoctorServiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4503ED1DEEE00D00BD4B3E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4503D51DEEE00D00BD4B3E /* 247DoctorService */;
+			targetProxy = 5B4503EC1DEEE00D00BD4B3E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B20D0DC1DF67CD60058882D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B20D0DD1DF67CD60058882D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B4503E41DEEE00D00BD4B3E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4503E51DEEE00D00BD4B3E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4503F31DEEE00D00BD4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALIDATE_PRODUCT = NO;
+			};
+			name = Debug;
+		};
+		5B4503F41DEEE00D00BD4B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = YES;
+				"ENABLE_NS_ASSERTIONS[arch=*]" = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4503F61DEEE00D00BD4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QJ397R6LK8;
+				INFOPLIST_FILE = 247DoctorService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.247Doctor.247DoctorService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5B4503F71DEEE00D00BD4B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = QJ397R6LK8;
+				INFOPLIST_FILE = 247DoctorService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = au.com.247Doctor.247DoctorService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5B4503F91DEEE00D00BD4B3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 247DoctorServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.247Doctor.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/247DoctorService.app/247DoctorService";
+			};
+			name = Debug;
+		};
+		5B4503FA1DEEE00D00BD4B3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = 247DoctorServiceTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				"MTL_ENABLE_DEBUG_INFO[arch=*]" = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "au.com.247Doctor.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/247DoctorService.app/247DoctorService";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4503D11DEEE00D00BD4B3E /* Build configuration list for PBXProject "247DoctorService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4503F31DEEE00D00BD4B3E /* Debug */,
+				5B4503F41DEEE00D00BD4B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4503F51DEEE00D00BD4B3E /* Build configuration list for PBXNativeTarget "247DoctorService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4503F61DEEE00D00BD4B3E /* Debug */,
+				5B4503F71DEEE00D00BD4B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4503F81DEEE00D00BD4B3E /* Build configuration list for PBXNativeTarget "247DoctorServiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4503F91DEEE00D00BD4B3E /* Debug */,
+				5B4503FA1DEEE00D00BD4B3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4503CE1DEEE00D00BD4B3E /* Project object */;
+}
